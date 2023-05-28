@@ -1859,7 +1859,6 @@ function library:AddWindow(title, options)
 								end
 
 							local highlight_logs = function(type)
-							end
 								if type == "Text" then
 									Source.Text = Source.Text:gsub("\13", "")
 									Source.Text = Source.Text:gsub("\t", "      ")
