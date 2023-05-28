@@ -1857,6 +1857,7 @@ function library:AddWindow(title, options)
 
 									sf.CanvasSize = UDim2.new(0, 0, lin * 0.153846154, 0)
 								end
+                            end
 
 							local highlight_logs = function(type)
 								if type == "Text" then
