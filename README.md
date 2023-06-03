@@ -79,6 +79,6 @@ folder:AddLabel("Hello from inside a folder!")
 ```
 ## Usage
 ```lua
-local Elerium = loadstring(game:HttpGet('https://raw.githubusercontent.com/lomychx/elerium/main/lib.lua'))()
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/lomychx/elerium/main/lib.lua'))()
 ```
 You can then use the library table to create UI elements in your game.
