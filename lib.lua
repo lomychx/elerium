@@ -1917,6 +1917,21 @@ function library:AddWindow(title, options)
 								return object
 							end
 						end
+						
+						function ha_data:AddSwitch(...)
+							local data, object
+							local ret = {tab_data:AddSwitch(...)}
+							if typeof(ret[1]) == "table" then
+								data = ret[1]
+								object = ret[2]
+								object.Parent = ha
+								return data, object
+							else
+								object = ret[1]
+								object.Parent = ha
+								return object
+							end
+						end
 
 						return ha_data, ha
 					end
