@@ -2,6 +2,11 @@
 
 Elerium is a UI library for Roblox Lua, designed to make creating user interfaces easier and more intuitive. It provides a set of functions for creating windows, tabs, and various UI elements such as labels, buttons, text boxes, switches, sliders, keybinds, dropdowns, color pickers, and consoles.
 
+## Usage
+```lua
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/lomychx/elerium/main/lib.lua'))()
+```
+
 To create a new window, use the `AddWindow` function:
 
 ```lua
@@ -77,8 +82,3 @@ end)
 local folder = tab:AddFolder("My Folder")
 folder:AddLabel("Hello from inside a folder!")
 ```
-## Usage
-```lua
-local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/lomychx/elerium/main/lib.lua'))()
-```
-You can then use the library table to create UI elements in your game.
